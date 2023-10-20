@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    font-weight: 50;
+font-family: 'Libre Baskerville', serif;
+}
+
+body{
+min-height: 100vh;
+display: grid;
+place-items: center;
+background-color: #000000;
+
+}
+.card{
+    width: 500px;
+    height: 200px;
+    background-image: url(Certificates/11.jpeg);
+    border: 1px solid #bfbdbd;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    text-align: center;
+    box-shadow: 0 0 20px #b1c7be ;
+}
+.sidebar{
+    margin-right:  50px; 
+    padding: 6%;
+   background-image: url(Certificates/22.jpeg);
+
+}
+.mainside{
+    line-height: 30px; 
+
+}
+

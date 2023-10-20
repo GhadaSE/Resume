@@ -1,0 +1,85 @@
+body{
+    background-color: #000000;
+
+    
+}
+.container{
+background-image: url(Certificates/11.jpeg);
+    width: 768px;
+    max-width: 100%;
+    margin: auto;
+    padding: 40px;
+    box-shadow: 0px 10px 50px #858585;
+    display: grid;
+    grid-template-columns: 40% 55%;
+    column-gap: 5%;
+
+ 
+}
+.personalInfo{
+    padding-right: 30px;
+    border-top: 1px  #f4f4ea;
+    
+
+
+}
+.personalInfo h1{
+    font-weight: 300;
+    font-size: xx-large;
+    margin: 1 1 5px;
+    padding-left: 20px;
+}
+.personalInfo .major{
+    padding-left: 40%;
+    margin-top: 5px;
+}
+.personalInfo .contact{
+    margin-left: 20px;
+
+}
+.personalInfo .contact span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-left: 20px;
+
+
+}
+.personalInfo ul{
+    line-height: 30px;
+    list-style: none;
+
+
+}
+.aboutMe{
+    padding-left: 30px;
+    text-align: justify;
+}
+
+.projects{
+    padding-left: 30px;
+    text-align: justify;
+    line-height: 25px;
+
+
+}
+.personalInfo,
+.skill {
+  padding-right: 30px;
+  padding-right: 30px;
+  border-right: 6px  #f4f4ea;
+  border-left: 6px  #f4f4ea;
+  background-image: url(Certificates/22.jpeg);
+  border-right-style: dotted;
+  border-left-style: dotted;
+
+}
+.skill{
+    border-bottom: 1px #f4f4ea;
+
+}
+h2{
+    font-weight: 300;
+    color:  rgb(122, 152, 131);
+}
